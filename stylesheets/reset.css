@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* ==================================================
+ * Reset
+================================================== */
+html, body, section, article, aside, nav,
+header, footer, address, h1, h2, h3, h4, h5, h6,
+div, p, ul, ol, li, dl, dt, dd, blockquote, pre,
+main, figure, figcaption, span, a,
+q, cite, dfn, abbr, time, strong, em, em, mark,
+small, b, i, sup, sub, code, var, samp, kbd,
+ins, del, img, audio, video, canvas, object, iframe,
+table, caption, tbody, tfoot, thead, tr, th, td,
+form, fieldset, legend, label, details, summary, menu {
+	outline: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+section, article, aside, nav, header, footer, address,
+main, figure, figcaption, canvas, details, summary, menu {
+	display: block;
+}
+div, p {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+img, a img {
+	border: none;
+	vertical-align: bottom;
+	background: transparent;
+}
+table {
+	border-spacing: 0;
+	border-collapse: separate;
+	word-break: break-all;
+	empty-cells: show;
+}
+input, button, select, textarea {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	text-rendering: optimizelegibility;
+	vertical-align: baseline;
+}
+
+/* body
+================================================== */
+html {
+	// font-size: 87.5%;
+	font-size: 100%;
+}
+body {
+	color: #595960;
+	font-size: 1em;
+	line-height: 1.4;
+	background-color: #fafafa;
+}
+
+/* a
+================================================== */
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: #ff9600;
+	text-decoration: underline;
+}
+
+/* font-face
+================================================== */
+@font-face {
+	font-family: "myGlyph";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../webfont/my_glyph.eot?#iefix-goat10) format("embedded-opentype");
+}
+@font-face {
+	font-family: "myGlyph";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../webfont/my_glyph.woff?-goat10) format("woff"),
+	url(../webfont/my_glyph.ttf?-goat10) format("truetype"),
+	url(../webfont/my_glyph.svg#-goat10#myGlyph) format("svg");
+}
