@@ -45,9 +45,18 @@
 .c-list-movie img {
 	width: 100%;
 }
+.c-list-img {
+	width: 28px;
+}
 .c-list-name {
 	padding: 10px;
 }
+.c-list-count {
+	padding: 10px;
+	float: left;
+}
 .c-list-love {
 	padding: 10px;
+	text-align: right;
+	width: 10px;
 }
