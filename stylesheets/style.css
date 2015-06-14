@@ -18,9 +18,14 @@
 	text-align: center;
 	line-height: 44px;
 	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.8);
-	background-color: #f0f0f0;
+	background-color: #ffeedf;
 	-webkit-transition: 0.3s ease;
 	transition: 0.3s ease;
+}
+.logo{
+    text-align: center;
+    width: 50%;
+    height: auto;
 }
 /* l-container
 ============================== */
@@ -36,8 +41,8 @@
 .c-list-item {
 	margin: 10px;
 	background-color: #ffffff;
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 .c-list-movie {
 	width: 100%;
@@ -56,7 +61,15 @@
 	float: left;
 }
 .c-list-love {
-	padding: 10px;
-	text-align: right;
-	width: 10px;
+    float: right;
+}
+.c-list-love img {
+    margin: 5px;
+}
+.screen{
+    background-color:#fafafa;
+}
+
+video{
+    width: 100%;
 }
